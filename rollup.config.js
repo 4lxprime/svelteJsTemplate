@@ -18,7 +18,7 @@ function serve() {
 	return {
 		writeBundle() {
 			if (server) return;
-			server = spawn('npm', ['run', 'start', '--', '--dev'], {
+			server = spawn('pnpm', ['run', 'start', '--', '--dev'], {
 				stdio: ['ignore', 'inherit', 'inherit'],
 				shell: true
 			});
@@ -40,7 +40,8 @@ export default {
 	plugins: [
 		svelte({
 			compilerOptions: {
-				dev: !production
+				dev: !production,
+				sourcemap: !production,
 			}
 		}),
 
