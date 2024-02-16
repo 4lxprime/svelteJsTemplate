@@ -30,10 +30,10 @@ devDependencies:
     version: 2.0.5
   rollup-plugin-svelte:
     specifier: ^7.1.6
-    version: 7.1.6(rollup@3.29.4)(svelte@4.2.9)
+    version: 7.1.6(rollup@3.29.4)(svelte@4.2.11)
   svelte:
-    specifier: ^4.2.9
-    version: 4.2.9
+    specifier: ^4.2.11
+    version: 4.2.11
 
 packages:
 
@@ -547,7 +547,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /rollup-plugin-svelte@7.1.6(rollup@3.29.4)(svelte@4.2.9):
+  /rollup-plugin-svelte@7.1.6(rollup@3.29.4)(svelte@4.2.11):
     resolution: {integrity: sha512-nVFRBpGWI2qUY1OcSiEEA/kjCY2+vAjO9BI8SzA7NRrh2GTunLd6w2EYmnMt/atgdg8GvcNjLsmZmbQs/u4SQA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -557,7 +557,7 @@ packages:
       '@rollup/pluginutils': 4.2.1
       resolve.exports: 2.0.2
       rollup: 3.29.4
-      svelte: 4.2.9
+      svelte: 4.2.11
     dev: true
 
   /rollup@3.29.4:
@@ -640,8 +640,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte@4.2.9:
-    resolution: {integrity: sha512-hsoB/WZGEPFXeRRLPhPrbRz67PhP6sqYgvwcAs+gWdSQSvNDw+/lTeUJSWe5h2xC97Fz/8QxAOqItwBzNJPU8w==}
+  /svelte@4.2.11:
+    resolution: {integrity: sha512-YIQk3J4X89wOLhjsqIW8tqY3JHPuBdtdOIkASP2PZeAMcSW9RsIjQzMesCrxOF3gdWYC0mKknlKF7OqmLM+Zqg==}
     engines: {node: '>=16'}
     dependencies:
       '@ampproject/remapping': 2.2.1
